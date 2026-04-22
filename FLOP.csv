@@ -1,0 +1,11 @@
+model_key,checkpoint_path,device,input_shape,FLOPs,MACs,Params
+resnet18_linear_probe,D:/Data 586/models/linear_probe_ResNet_best.pth,cuda,"(1, 3, 224, 224)",3.64 GFLOPS,1.81 GMACs,51.81 K
+resnet18_lora,D:/Data 586/models/lora_full_checkpoint.pth,cuda,"(1, 3, 224, 224)",3.64 GFLOPS,1.81 GMACs,763.56 K
+resnet18_batchnorm,D:/Data 586/models/batchnorm_finetune_ResNet_best.pth,cuda,"(1, 3, 224, 224)",3.64 GFLOPS,1.81 GMACs,61.41 K
+resnet18_tsa,D:/Data 586/models/adapter_finetune_resnet18_new_best.pth,cuda,"(1, 3, 224, 224)",3.66 GFLOPS,1.83 GMACs,140.89 K
+resnet18_bitfit,D:/Data 586/models/ResNet18_BitFit_best.pth,cuda,"(1, 3, 224, 224)",3.64 GFLOPS,1.81 GMACs,4.9 K
+effnetv2s_linear_probe,D:/Data 586/models/linear_probe_EffecientNet_best_.pth,cuda,"(1, 3, 384, 384)",16.84 GFLOPS,8.36 GMACs,129.38 K
+effnetv2s_lora,D:/Data 586/models/effcient_lora_best.pth,cuda,"(1, 3, 384, 384)",16.84 GFLOPS,8.36 GMACs,3.94 M
+effnetv2s_batchnorm,D:/Data 586/models/batchnorm_finetune_EfficientNet_best.pth,cuda,"(1, 3, 384, 384)",16.84 GFLOPS,8.36 GMACs,283.25 K
+effnetv2s_tsa,D:/Data 586/models/efficientnet_adapter_finetune_effcientnet_tsa_v2_best.pth,cuda,"(1, 3, 384, 384)",17.03 GFLOPS,8.46 GMACs,509.83 K
+effnetv2s_bitfit,D:/Data 586/models/EfficientNetV2S_BitFit_best.pth,cuda,"(1, 3, 384, 384)",16.84 GFLOPS,8.36 GMACs,112.23 K
